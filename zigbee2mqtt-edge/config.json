@@ -5,7 +5,7 @@
   "description": "Development build of the Zigbee2mqtt add-on",
   "uart": true,
   "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-edge",
-  "startup": "application",
+  "startup": "services",
   "services": [
     "mqtt:need"
   ],

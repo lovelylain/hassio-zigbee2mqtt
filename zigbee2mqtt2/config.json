@@ -1,7 +1,7 @@
 {
-  "name": "Zigbee2mqtt",
+  "name": "Zigbee2mqtt 2",
   "version": "1.19.1-1",
-  "slug": "zigbee2mqtt",
+  "slug": "zigbee2mqtt2",
   "description": "Zigbee2mqtt add-on",
   "uart": true,
   "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
@@ -24,23 +24,23 @@
     "config:rw"
   ],
   "ports": {
-    "8485/tcp": 8485
+    "8485/tcp": null
   },
   "ports_description": {
     "8485/tcp": "Socat tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt",
+    "data_path": "/config/zigbee2mqtt2",
     "external_converters": [],
     "devices": "devices.yaml",
     "groups": "groups.yaml",
     "homeassistant": true,
     "permit_join": false,
     "mqtt": {
-      "base_topic": "zigbee2mqtt"
+      "base_topic": "zigbee2mqtt2"
     },
     "serial": {
-      "port": "/dev/ttyACM0"
+      "port": "/dev/ttyACM1"
     },
     "advanced": {
       "log_level": "warn",
